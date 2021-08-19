@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    /*margin-left: 30px;*/
+    color: white;
+    font-family: "Calibari";
+  }
+  .main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-left: 110px; 
+    padding-top: 40px; 
+    background-color:rgb(42, 41, 51);
+  }
+  .side {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 400px;
+    /*padding: 10px;*/
+    height: 450px;
+
+    text-align: center; /* Should be removed. Only for demonstration */
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .box {
+    width: 800px;
+    height: 280px;
+  }
+  .text {
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+  }
+  .fa-male,.fa-apple,.fa-exclamation-triangle,.fa-television,.fa-eraser,.fa-usd,.fa-inr {
+    color: black;
+  }
+  .fa-female {
+    color: crimson;
+  }
+  .fa-bicycle {
+    color: crimson;
+    position: absolute;
+  
+  }
+  .img {
+    height: 100px;
+  }
+  .row{
+    margin: 35px;
+  }
+  .img1 {
+    height: 90px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: 78px;
+    left: 45%;
+    transform: translateX(-100px);
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    border: 5px double white;
+    background-color: deepskyblue;
+  }
+  h1{
+    color: crimson;
+    font-weight: bolder;
+    font-size: 60px;
+    padding-left: 300px;
+  }
+  @media screen and (max-width:500px){
+      *{
+          width: 50%;
+          background-color: rgb(42, 41, 51);
+      }
+  }
+  
